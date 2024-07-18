@@ -20,12 +20,13 @@
 .btn-primary{
  background-color: #E6533C;
  border: none;
- border-radius: 10px;
+ border-radius: 15px;
  color: #FFFFFF;
  padding: 10px;
 }
-.shape{
+.header-title{
  font-family: 'Miama', sans-serif;
+ color: white;
 }
 
 .btn-primary{
@@ -59,7 +60,7 @@
  justify-content: space-between;
  align-items: center;
  margin-right: 190px;
- padding-top: 57px;
+ padding-top: px;
 }
 
 .logo{
@@ -86,15 +87,15 @@
 }
 
 /* -----------------------Header related style--------------------------------------- */
-.header-title{
- margin: 20px 0px 0px 400px;
+.heading-title {
+ margin: 30px 0px 0px 400px;
  color: #FFFFFF;
 }
-.header-title button{
+.heading-title button{
  border-radius: 50px;
 }
-.header-title h1{
- font-size: 78px;
+.heading-title h1{
+ font-size: 50px;
 }
 
 .image img{
@@ -199,13 +200,13 @@ left: 30px;
 
 /* -------------------------------Responsive midea quary----------------------------------- */
 @media screen and (max-width: 576px){
-  .navbar, .nav-links, .banner{
+  .navbar, .shape, .nav-links, .banner{
    flex-direction: column;
   }
   .logo{
    margin-left: 0;
   }
- .header-title{
+ .heading-title{
   margin: 0 auto;
  }
  .banner-description{
