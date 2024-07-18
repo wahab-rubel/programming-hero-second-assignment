@@ -11,11 +11,18 @@
 .display-flex{
  display: flex;
 }
+.primary{
+ background-color: #E6533C;
+ border: none;
+ border-radius: 10px;
+ color: #FFFFFF;
+}
 .btn-primary{
  background-color: #E6533C;
  border: none;
  border-radius: 10px;
  color: #FFFFFF;
+ padding: 10px;
 }
 .shape{
  font-family: 'Miama', sans-serif;
@@ -32,13 +39,12 @@
 
 
 /* ----------------navbar related style---------------------------- */
-
 .navbar{
  text-align: center;
  justify-content: space-between;
  align-items: center;
- margin-right: 140px;
- padding-top: 50px;
+ margin-right: 190px;
+ padding-top: 57px;
 }
 
 .logo{
@@ -66,7 +72,7 @@
 
 /* -----------------------Header related style--------------------------------------- */
 .header-title{
- margin: 199px 76px 87px 190px;
+ margin: 0px 0px 0px 190px;
  color: #FFFFFF;
 }
 .header-title h1{
@@ -76,6 +82,19 @@
 .image img{
  width: 349px;
  height: 580px;
- margin: 135px 100px 87px 240px;
+ margin-right: 290px;
+ margin-top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------midea quary----------------------------------- */
 
