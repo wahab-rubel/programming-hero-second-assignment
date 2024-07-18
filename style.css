@@ -103,7 +103,93 @@
  height: 580px;
 }
  
+/* ------------------------------------habits exercise-deaitls----------------------- */
+.exercise-deaitls{
+ background-color: black;
+}
+.habits-title{
+ font-size: 48px;
+ text-align: center;
+ color:rgba(255, 255, 255, 1);
+}
+.habits-titles{
+ font-size: 18px;
+ color:rgba(255, 255, 255, 0.5);
+ text-align: center;
+}
 
+.show-exercise{
+ display: flex;
+ margin-right: 198px;
+ margin-left: 300px;
+}
+.show-exercise img{
+ padding: 40px;
+}
+.habits-description{
+ text-align: center;
+ color: rgba(255, 255, 255, 0.5);
+}
+
+.show-exercise img{
+ margin: 30px;
+ border-radius: 50%;
+}
+
+
+/* ---------------------------------fitness-form--------------------- */
+.fitnese{
+ background-color: black;
+}
+table, th, td{
+ margin: 10px;
+ padding: 5px 5px;
+ border: 1px solid rgb(245, 237, 237);
+ color: white;
+ margin-left: 250px;
+ padding: 5px;
+}
+.calculate-form{
+ margin-left: 250px;
+}
+.fitness-form{
+ display: flex;
+}
+/* ----------------------run related style------------------------- */
+.run-execrise{
+ background-color: rgb(0, 0, 0);
+ padding: 100px;
+}
+.execrise{
+ display: flex;
+ background-color: rgba(34, 34, 34, 1);
+ margin: 100px 190px 100px 190px;
+ border-radius: 30px;
+
+}
+.run-execrise img{
+ width: 400px;
+ height: 300px;
+ padding: 30px;
+ border-radius: 30px;
+ 
+}
+
+/* ---------------------teem-bember------------- */
+.teem{
+ display: flex;
+}
+.teem-bember img{
+position: relative;
+color: rgb(245, 71, 71);
+width: 200px;
+height: 100px;
+}
+.trainer-name, span{
+position: absolute;
+top: 80%;
+left: 30px;
+}
 
 
 
