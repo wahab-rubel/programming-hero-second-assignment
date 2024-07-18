@@ -27,6 +27,21 @@
 .shape{
  font-family: 'Miama', sans-serif;
 }
+
+.btn-primary{
+ width: 200px;
+ height: 54px;
+ margin: 14px;
+}
+
+.btn-app{
+ width: 200px;
+ height: 54px;
+ margin: 14px;
+ background-color: rgba(17, 17, 17, 1);
+ color: #FFFFFF;
+ border: 1px solid rgba(187, 187, 187, 1);
+}
 /* ------------------------bg dark color--------------------------- */
 .bg-dark{
  background-color: #111111;
@@ -72,19 +87,22 @@
 
 /* -----------------------Header related style--------------------------------------- */
 .header-title{
- margin: 0px 0px 0px 190px;
+ margin: 20px 0px 0px 400px;
  color: #FFFFFF;
+}
+.header-title button{
+ border-radius: 50px;
 }
 .header-title h1{
  font-size: 78px;
 }
 
 .image img{
+ padding: 50px;
  width: 349px;
  height: 580px;
- margin-right: 290px;
- margin-top: 30px;
 }
+ 
 
 
 
@@ -93,8 +111,18 @@
 
 
 
-
-
-
-/* -------------------------------midea quary----------------------------------- */
-
+/* -------------------------------Responsive midea quary----------------------------------- */
+@media screen and (max-width: 576px){
+  .navbar, .nav-links, .banner{
+   flex-direction: column;
+  }
+  .logo{
+   margin-left: 0;
+  }
+ .header-title{
+  margin: 0 auto;
+ }
+ .banner-description{
+  flex-direction: column;
+ }
+}
