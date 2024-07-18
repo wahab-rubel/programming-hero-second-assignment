@@ -20,7 +20,7 @@
 .btn-primary{
  background-color: #E6533C;
  border: none;
- border-radius: 15px;
+ border-radius: 35px;
  color: #FFFFFF;
  padding: 10px;
 }
@@ -156,7 +156,7 @@ table, th, td{
 .fitness-form{
  display: flex;
 }
-/* ----------------------run related style------------------------- */
+/* ----------------------run execrise related style------------------------- */
 .run-execrise{
  background-color: rgb(0, 0, 0);
  padding: 100px;
@@ -166,13 +166,21 @@ table, th, td{
  background-color: rgba(34, 34, 34, 1);
  margin: 100px 190px 100px 190px;
  border-radius: 30px;
-
+}
+.execrise-title{
+  margin: 30px;
+  color: white;
+}
+.execrise-description{
+  margin: 30px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .run-execrise img{
  width: 400px;
  height: 300px;
  padding: 30px;
- border-radius: 30px;
+ border-radius: 50px;
+ margin-left: 350px;
  
 }
 
